@@ -2,6 +2,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 import type React from "react";
+import ThemeSwitcher from "../components/ThemeSwitcher";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,14 +37,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        <link
-          rel="preload"
-          href="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/openart-image_f3n-YsTm_1736231910487_raw.jpg"
-          as="image"
-        />
+        <link rel="preload" href="/og-image.jpg" as="image" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} bg-white dark:bg-gray-900 text-black dark:text-white`}>
+        <ThemeSwitcher />
+        {children}
+      </body>
     </html>
   );
 }
