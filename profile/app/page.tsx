@@ -27,7 +27,7 @@ export default function Home() {
         <meta property="og:image" content="/og-image.jpg" />
       </Head>
       <main className="bg-gray-900 text-white overflow-x-hidden">
-        <Hero />
+      <Hero />
         <section id="how-it-works">
           <HowItWorks />
         </section>
@@ -47,6 +47,7 @@ export default function Home() {
           <DynamicJoinRevolution />
         </section>
         <Footer />
+
       </main>
     </>
   );
