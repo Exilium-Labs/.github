@@ -6,8 +6,6 @@ import Features from "./components/Features";
 import UseCases from "./components/UseCases";
 import WhyVIGLO from "./components/WhyVIGLO";
 import Footer from "./components/Footer";
-import ScrollToTop from "./components/ScrollToTop";
-
 
 const DynamicLiveDashboard = dynamic(() => import("./components/LiveDashboard"), {
   loading: () => <p>Loading...</p>,
@@ -48,7 +46,6 @@ export default function Home() {
         <section id="join">
           <DynamicJoinRevolution />
         </section>
-        <ScrollToTop />
         <Footer />
 
       </main>
