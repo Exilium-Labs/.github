@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 import type React from "react";
 import ThemeSwitcher from "../components/ThemeSwitcher";
+import LoadingSpinner from "../components/LoadingSpinner";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -42,6 +43,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className={`${inter.className} bg-white dark:bg-gray-900 text-black dark:text-white`}>
         <ThemeSwitcher />
+        <LoadingSpinner />
         {children}
       </body>
     </html>
