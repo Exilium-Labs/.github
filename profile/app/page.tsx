@@ -7,6 +7,7 @@ import UseCases from "./components/UseCases";
 import WhyVIGLO from "./components/WhyVIGLO";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import { motion } from "framer-motion";
 
 
 const DynamicLiveDashboard = dynamic(() => import("./components/LiveDashboard"), {
@@ -28,7 +29,13 @@ export default function Home() {
         <meta property="og:description" content="Protect your assets with AI-driven fraud detection on Solana." />
         <meta property="og:image" content="/og-image.jpg" />
       </Head>
-      <main className="bg-gray-900 text-white overflow-x-hidden">
+
+
+      <motion.main
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
+      >
       <Hero />
         <section id="how-it-works">
           <HowItWorks />
@@ -51,7 +58,7 @@ export default function Home() {
         <ScrollToTop />
         <Footer />
 
-      </main>
+      </motion.main>
     </>
   );
 }
