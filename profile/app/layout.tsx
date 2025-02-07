@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import type React from "react";
 import ThemeSwitcher from "../components/ThemeSwitcher";
 import LoadingSpinner from "../components/LoadingSpinner";
+import Navbar from "../components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -42,6 +43,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </head>
       <body className={`${inter.className} bg-white dark:bg-gray-900 text-black dark:text-white`}>
+        <Navbar />
         <ThemeSwitcher />
         <LoadingSpinner />
         {children}
