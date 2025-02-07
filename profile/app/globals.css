@@ -7,6 +7,7 @@
   --background-start-rgb: 0, 0, 0;
   --background-end-rgb: 50, 50, 50;
   --base-font-size: 16px;
+  --shadow-depth: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,6 +15,7 @@
     --foreground-rgb: 220, 220, 220;
     --background-start-rgb: 10, 10, 10;
     --background-end-rgb: 30, 30, 30;
+    --shadow-depth: 0px 4px 12px rgba(0, 0, 0, 0.3);
   }
 }
 
@@ -22,6 +24,10 @@ body {
   background: linear-gradient(to bottom, rgb(var(--background-start-rgb)), rgb(var(--background-end-rgb)));
   font-size: var(--base-font-size);
   transition: background 0.3s ease-in-out;
+}
+
+.box-shadow {
+  box-shadow: var(--shadow-depth);
 }
 
 @media (max-width: 1024px) {
