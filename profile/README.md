@@ -1,4 +1,4 @@
-# 🚀 Exilium Labs - Redefining Decentralized AI & Blockchain Security
+# 🚀 Exilium Labs - Redefining Decentralized AI & Blockchain Security 
 
 ![Exilium Labs Logo](https://raw.githubusercontent.com/Exilium-Labs/.github/refs/heads/main/Banner.png)
 
