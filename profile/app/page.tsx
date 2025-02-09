@@ -8,6 +8,7 @@ import WhyVIGLO from "./components/WhyVIGLO";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import { motion } from "framer-motion";
+import ThemeSwitcher from "./components/ThemeSwitcher";
 
 
 const DynamicLiveDashboard = dynamic(() => import("./components/LiveDashboard"), {
@@ -29,36 +30,31 @@ export default function Home() {
         <meta property="og:description" content="Protect your assets with AI-driven fraud detection on Solana." />
         <meta property="og:image" content="/og-image.jpg" />
       </Head>
-
-
-      <motion.main
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
-      >
-      <Hero />
-        <section id="how-it-works">
-          <HowItWorks />
-        </section>
-        <section id="features">
-          <Features />
-        </section>
-        <section id="use-cases">
-          <UseCases />
-        </section>
-        <section id="why-viglo">
-          <WhyVIGLO />
-        </section>
-        <section id="live-dashboard">
-          <DynamicLiveDashboard />
-        </section>
-        <section id="join">
-          <DynamicJoinRevolution />
-        </section>
-        <ScrollToTop />
-        <Footer />
-
-      </motion.main>
+        <Header />
+        <ThemeSwitcher />
+        <motion.main>
+          <Hero />
+          <section id="how-it-works">
+            <HowItWorks />
+          </section>
+          <section id="features">
+            <Features />
+          </section>
+          <section id="use-cases">
+            <UseCases />
+          </section>
+          <section id="why-viglo">
+            <WhyVIGLO />
+          </section>
+          <section id="live-dashboard">
+            <DynamicLiveDashboard />
+          </section>
+          <section id="join">
+            <DynamicJoinRevolution />
+          </section>
+          <ScrollToTop />
+          <Footer />
+        </motion.main>
     </>
   );
 }
