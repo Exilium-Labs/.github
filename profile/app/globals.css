@@ -30,6 +30,20 @@ body {
   box-shadow: var(--shadow-depth);
 }
 
+button {
+  padding: 12px 24px;
+  border-radius: 6px;
+  background: rgb(100, 149, 237);
+  color: white;
+  font-weight: bold;
+  transition: transform 0.2s ease-in-out, background 0.3s;
+}
+
+button:hover {
+  background: rgb(65, 105, 225);
+  transform: scale(1.05);
+}
+
 @media (max-width: 1024px) {
   :root {
     --base-font-size: 14px;
