@@ -41,6 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="preload" href="/og-image.jpg" as="image" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <script src="/analytics.js" defer></script>
       </head>
       <body className={`${inter.className} bg-white dark:bg-gray-900 text-black dark:text-white`}>
         <Navbar />
