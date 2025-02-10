@@ -1,4 +1,4 @@
-# 🚀 Exilium Labs - Redefining Decentralized AI & Blockchain Security 
+# 🚀 Exilium Labs - Redefining Decentralized AI & Blockchain Security
 
 ![Exilium Labs Logo](https://raw.githubusercontent.com/Exilium-Labs/.github/refs/heads/main/Banner.png)
 
@@ -14,7 +14,7 @@ We envision a future where AI-driven blockchain solutions enhance **security, ef
 
 ---
 
-## 🔥 **Our Flagship Project: Fixify**
+## 🔥 **Our Flagship Projects**
 
 ### [**Fixify - AI-Powered Smart Contract Security**](https://github.com/Exilium-Labs/Fixify)
 **Fixify** is a next-generation **AI-driven security engine** designed to detect, analyze, and patch vulnerabilities in **smart contracts**, ensuring unparalleled protection for decentralized applications (dApps) and blockchain protocols.
@@ -30,7 +30,20 @@ We envision a future where AI-driven blockchain solutions enhance **security, ef
 
 ---
 
-## 🤖 **Why AI in Blockchain & DeFi?**
+### [**SolanaVerse - Metaverse Infrastructure**](https://github.com/Exilium-Labs/SolanaVerse)
+**SolanaVerse** is a comprehensive **metaverse infrastructure toolkit** designed to help developers build **scalable, decentralized, and interoperable virtual worlds** on Solana. Our platform enables seamless asset management, cross-platform connectivity, and immersive metaverse experiences.
+
+#### **🌌 Key Features:**
+- **🛠 Virtual World SDK** – Decentralized land ownership, real-time 3D interactions, and physics-based environments.
+- **🎭 Digital Asset Framework** – NFT-based asset management, programmable smart objects, and cross-chain bridges.
+- **💡 Social & Economic Layer** – DAO governance models, play-to-earn incentives, and decentralized identity solutions.
+- **⚡ High-Speed & Scalable** – Built on Solana’s low-latency and cost-efficient blockchain for real-time interactions.
+
+🔗 Explore SolanaVerse in its [repository](https://github.com/Exilium-Labs/SolanaVerse).
+
+---
+
+## 🤖 **Why AI & Blockchain in Web3?**
 
 The integration of **AI and blockchain** is transforming digital economies and security paradigms. Exilium Labs is pioneering this transformation by offering:
 - **🔄 Trustless Automation** – AI-powered smart contracts that execute autonomously and securely.
@@ -50,10 +63,10 @@ The decentralized AI revolution is happening now, and you can be part of it! Her
 ---
 
 ## 📢 **Join the Exilium Labs Ecosystem**
-Be part of the **future of decentralized AI** by staying engaged with our growing community:
+Be part of the **future of decentralized AI & the Metaverse** by staying engaged with our growing community:
 
 - 🌐 **Website:** [ExiliumLabs.io](#)
 - 🐦 **Twitter:** [@ExiliumLabs](#)
 - 💬 **Join the Discussion:** [Discord](#) | [Telegram](#)
 
-🚀 **Together, we are building the most advanced AI-powered blockchain security solutions. Let's secure Web3—one contract at a time!**
+🚀 **Together, we are building the most advanced AI-powered blockchain security solutions and metaverse experiences. Let’s shape Web3—one innovation at a time!**
