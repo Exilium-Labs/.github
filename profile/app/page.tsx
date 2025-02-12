@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import ThemeSwitcher from "./components/ThemeSwitcher";
 import LoadingSpinner from "./components/LoadingSpinner";
+import Navbar from "./components/Navbar";
 
 const DynamicLiveDashboard = dynamic(() => import("./components/LiveDashboard"), {
   loading: () => <LoadingSpinner />,
@@ -27,8 +28,9 @@ export default function Home() {
       <Head>
         <title>VIGLO - AI-Powered Security</title>
       </Head>
+      <Navbar />
       <motion.main
-        className="bg-gray-900 text-white overflow-x-hidden"
+        className="bg-gray-900 text-white overflow-x-hidden pt-16"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
