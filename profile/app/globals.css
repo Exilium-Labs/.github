@@ -30,6 +30,20 @@ body {
   box-shadow: var(--shadow-depth);
 }
 
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(100, 149, 237);
+  border-radius: 10px;
+}
+
 button {
   padding: 12px 24px;
   border-radius: 6px;
