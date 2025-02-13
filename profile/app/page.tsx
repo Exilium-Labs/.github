@@ -27,6 +27,11 @@ export default function Home() {
     <>
       <Head>
         <title>VIGLO - AI-Powered Security</title>
+        <script src="/analytics.js" defer></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXX-X"></script>
+        <script defer>
+          {`window.dataLayer = window.dataLayer || []; function gtag(){window.dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-XXXXXXX-X');`}
+        </script>
       </Head>
       <Navbar />
       <motion.main
