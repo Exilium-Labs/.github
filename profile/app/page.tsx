@@ -27,11 +27,6 @@ export default function Home() {
     <>
       <Head>
         <title>VIGLO - AI-Powered Security</title>
-        <script src="/analytics.js" defer></script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXX-X"></script>
-        <script defer>
-          {`window.dataLayer = window.dataLayer || []; function gtag(){window.dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-XXXXXXX-X');`}
-        </script>
       </Head>
       <Navbar />
       <motion.main
@@ -59,6 +54,14 @@ export default function Home() {
         </section>
         <section id="join">
           <DynamicJoinRevolution />
+        </section>
+        <section id="newsletter" className="bg-gray-800 py-10 text-center">
+          <h2 className="text-2xl font-bold">Subscribe to Our Newsletter</h2>
+          <p className="text-gray-300">Get the latest updates and news delivered to your inbox.</p>
+          <form className="mt-4 flex justify-center">
+            <input type="email" placeholder="Enter your email" className="px-4 py-2 rounded-l-md" />
+            <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-r-md">Subscribe</button>
+          </form>
         </section>
         <ScrollToTop />
         <Footer />
