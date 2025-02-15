@@ -5,6 +5,8 @@ import type React from "react";
 import ThemeSwitcher from "../components/ThemeSwitcher";
 import LoadingSpinner from "../components/LoadingSpinner";
 import Navbar from "../components/Navbar";
+import Newsletter from "../components/Newsletter";
+import Footer from "../components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,27 +29,24 @@ export const metadata: Metadata = {
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "FIXIFY - AI-Powered Fraud Detection",
-    description: "Protect your assets with AI-driven fraud detection on Solana.",
-    images: ["/og-image.jpg"],
-  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
-        <link rel="preload" href="/og-image.jpg" as="image" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <script src="/analytics.js" defer></script>
       </head>
       <body className={`${inter.className} bg-white dark:bg-gray-900 text-black dark:text-white`}>
-        <Navbar />
+        <nav aria-label="Main Navigation">
+          <Navbar />
+        </nav>
         <ThemeSwitcher />
         <LoadingSpinner />
-        {children}
+        <Newsletter />
+        <main role="main">{children}</main>
+        <Footer />
       </body>
     </html>
   );
