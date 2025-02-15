@@ -24,6 +24,7 @@ body {
   background: linear-gradient(to bottom, rgb(var(--background-start-rgb)), rgb(var(--background-end-rgb)));
   font-size: var(--base-font-size);
   transition: background 0.3s ease-in-out;
+  scroll-behavior: smooth;
 }
 
 .box-shadow {
