@@ -41,6 +41,11 @@ a:hover {
   color: rgb(65, 105, 225);
 }
 
+a:focus {
+  outline: 3px solid rgb(255, 193, 7);
+  outline-offset: 2px;
+}
+
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
