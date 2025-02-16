@@ -14,21 +14,6 @@ export const metadata: Metadata = {
   title: "FIXIFY",
   description: "AI-Powered Fraud Detection on Solana",
   generator: "v0.dev",
-  openGraph: {
-    title: "FIXIFY - AI-Powered Fraud Detection",
-    description: "Protect your assets with AI-driven fraud detection on Solana.",
-    url: "https://fixify.com",
-    siteName: "FIXIFY",
-    type: "website",
-    images: [
-      {
-        url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "FIXIFY Fraud Detection",
-      },
-    ],
-  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
