@@ -7,6 +7,7 @@ import LoadingSpinner from "../components/LoadingSpinner";
 import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
+import ScrollToTop from "../components/ScrollToTop";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,6 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <LoadingSpinner />
         <Newsletter />
         <main role="main">{children}</main>
+        <ScrollToTop />
         <Footer />
       </body>
     </html>
