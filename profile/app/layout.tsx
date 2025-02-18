@@ -22,7 +22,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-        <script src="/analytics.js" defer></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXX-X"></script>
+        <script>
+          {`window.dataLayer = window.dataLayer || []; function gtag(){window.dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-XXXXXXX-X');`}
+        </script>
       </head>
       <body className={`${inter.className} bg-white dark:bg-gray-900 text-black dark:text-white`}>
         <nav aria-label="Main Navigation">
