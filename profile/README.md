@@ -65,8 +65,7 @@ The decentralized AI revolution is happening now, and you can be part of it! Her
 ## 📢 **Join the Exilium Labs Ecosystem**
 Be part of the **future of decentralized AI & the Metaverse** by staying engaged with our growing community:
 
-- 🌐 **Website:** [ExiliumLabs.io](#)
-- 🐦 **Twitter:** [@ExiliumLabs](#)
-- 💬 **Join the Discussion:** [Discord](#) | [Telegram](#)
+- 🌐 **Website:** [ExiliumLabs](https://www.exiliumlabs.com/)
+- 🐦 **Twitter:** [@ExiliumLabs](https://x.com/exilium_labs)
 
 🚀 **Together, we are building the most advanced AI-powered blockchain security solutions and metaverse experiences. Let’s shape Web3—one innovation at a time!**
